@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-image: url('../img/background-yugioh.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+button {
+    padding: .8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+h2 {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+#player-card, #machine-card {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+}
+
+#player-card h3 {
+    text-align: center;
+}
+
+.card-status {
+    height: 160px;
+    margin: 2rem;
+    color: #17140f;
+    z-index: 2;
+    text-align: left;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+}
+
+.card-status input {
+    margin: 20px 10px;
+}
+
+.final-result {
+    color: #dcbb78;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 1rem;
+    border: 2px solid #dcbb78;
+    background-color: black;
+    border-radius: 20px 0px;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 13px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #17140f;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card-status p {
+    margin-bottom: 1.72rem;
+    margin-left: 2.4rem;
+}
+
+.options {
+    color: white;
+}
+
+.btn-start-reset {
+    width: 52rem;
+    margin-top: 2rem;
+}
+
+.btn-hover-normal {
+    transition: all 0.5s;
+}
+
+.btn-hover-normal:hover:enabled {
+    background: #dcbb78;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+#radio-defense:after,
+#radio-attack:after,
+#radio-magic:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+#radio-defense:checked:after,
+#radio-attack:checked:after,
+#radio-magic:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #dcbb78;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}

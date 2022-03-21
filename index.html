@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Imersão Dev - Aula 07 e 08</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="img/logo-imersao-super-trunfo.png" class="page-logo" alt="Logo do Imersão Dev">
+            <h1 class="page-title">Super Trunfo</h1>
+        </header>
+
+        <main>
+            <button onclick="drawCards()" id="btn-draw-cards" class="btn-hover-normal">Sortear carta</button>
+
+            <form id="form">
+                <h2 id="text-attribute"></h2>
+                <div class="options" id="options"></div>
+                <br>
+                <div class="wrapper">
+                    <div>
+                        <div id="player-card"></div>
+                    </div>
+                    <div>
+                        <div id="machine-card"></div>
+                    </div>
+                </div>
+
+                <div id="btn-area-play"></div>
+                <div id="result"></div>
+                <div id="reset-game"></div>
+                <div id="focar"></div>
+            </form>
+        </main>
+    </div>
+
+    <script src="src/app.js"></script>
+</body>
+
+</html>
