@@ -1,7 +1,7 @@
 const cards = [
   {
     name: "Squirtle",
-    image: "https://lh3.googleusercontent.com/-mSP9j2s0CEBrpqGEM_4NeJciXvxWSTD1dfOd1HKqDbSidf89cwjasuyXaN-Mizm9vJDfJt_F4SBw3-wXYWpC8yS3zjG6pZKn19NGwzg95fPqpgQhVBicxgb8hF7hW3aM-imlynaF8IT1xP53jP6OgV4lWvgt_Cr82AiyrqbSNrVac6573LADdXKF2B8Vjt4lq9TqAUbCae2si9G9B6mulV_KjeOZZ8rSmjbFvyCM4wAeEkfNBawAIb7ZgwvMYgmpJtavGIqMD5_0wkZXL8Sp4I_h7va1H_i-kOq9rWZCxFrFbKAEogfKntiF4lu_38Er6TWZpuUZDAbcMyGDoUJeKLIqP1mCejlDDUgouQ1bF1bcoazmBCigXuZULXb139c8VqSzaQAx2sn4_KUNZyA5pijcGNOubzWKnz7aZfLDS1mQuUhYnytUjLHsYOT_MVCa7bce9RaVEyfNyc93FOKR2e08FkzTQXckfbOYZ5OeoLu8mxFL4VwE5KalXUNPjVQiwBR7ccZsr3-UnchwBQhY4YhRPnyJbGQaqOGoA8UiMvGT1LPnwVohQ-4gBygiDSn93SrMGnek2oURwa5XgmnpJDxs6c9o24WZOlIzg9UwX9ECQcFsYik-KqMCmbwktHgnErfgsuUSTStG04PyKS0f6bmsBinMU8rsPokJ-KJn5djpuja1dPMWvGoCGvXusb3osQ0W59VSZ816F5-cTpKGcJEdDxGApMjdilLif9yauJYXy2k4mWDuJKoYwL5iXu_V5Gx0lydV2bpy-4gNrvd5Ty1WD-JopE=w1238-h879-no?authuser=0",
+    image: "../img/background-yugioh.png",
     attributes: {
       attack: 5,
       defense: 7,
