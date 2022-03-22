@@ -156,7 +156,7 @@ function showPlayerCard() {
 function showMachineCard() {
   const divmachineCard = document.getElementById("machine-card");
   divmachineCard.style.backgroundImage = `url(${machineCard.image})`;
-  const cardFrame = `<img src="https://lh3.googleusercontent.com/SJ_i3Gz0HateAcq81u_tLzV7bjL_obfAolO_epSakre6U6-sf34F11b4v-7-dlugbSiG1cRhidH-PLLiA2J8UadWjKQe7zWNfjAgcADordzZGK7ULw-LY0VmjL50eF81KMpD2gNbJWsf4fijDupY1v15A6Dqt-5VxkbK4iGin7irFHl7SpSQ3QSg0pc2eLJDFQAkF1zIcUD3Yyj1cBxQaeacYGwoXENMtqR-TPDQholLXKoeBgEYaaaYoc2ZmiZ-Mly37A-New3TuupEt3dZdn4pqYOyxRuBQHmy4xiBOxXh9QmS6NzLPi4znh3JBfC0p_OKAe6GKkn66ZAfUyhmbYyimwjts1TpL9ZsPWZcAJE9fySr6daAIfEUqJmix0ZZtRdzSOycUUBw1pmflthqcsi0J6fQg-cUl_B6WsthzyDkugHdK1r_y4H0YcySxvzaTLWRLkTwtgol3nLbk4IeESbhkKNlyd8sUKNCi6RVDdMj1J2tpijORYZnxXS5ObUUFdExChgsEyTz_cRVtPIW3WYzKGSLsbxGlSFmvaF0g1VXO85lW2UYkjigCgktseeqs62U9th3DRV-30iFCt6HKeX0gLrn1GauBcOO1Fvng0i5dp4H7ODMfTotdXJRQzCGm-b4MItylAAGwswiC9os4JQwWZ4iccc41PTyBQRgGsPu7nH9fyO42WYECKEX3rkhyMiBjRTLqSu8tCSrIdU2WGflDrmtNOARu9bvKWg4E4sexEb4mZAfB7l994oKW_LtW88SmD1TfvvB0QNCwNeiyd2eZKMorAU=w672-h936-no?authuser=0" style=" width: inherit; height: inherit; position: absolute;">`;
+  const cardFrame = `<img src="../img/background-yugioh.png" style=" width: inherit; height: inherit; position: absolute;">`;
   const optionsTagHTML = `<div id='options' class='card-status'>`; //apenas abriu
 
   let textOptions = "";
