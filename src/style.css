@@ -160,3 +160,14 @@ form {
     visibility: visible;
     border: 2px solid white;
 }
+
+/* Mandar aquela escondida na ScrollBar */
+body {
+    -ms-overflow-style: none; /* para Internet Explorer/Edge */
+    scrollbar-width: none; /* para Firefox */
+    overflow-y: scroll; 
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* para Chrome, Safari, e Opera */
+  }
